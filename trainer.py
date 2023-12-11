@@ -145,3 +145,5 @@ if __name__ == "__main__":
     trainer = DistributedRLHFTrainer(config, rank, world_size)
     trainer.train(num_epochs=1)
     trainer.save_model()
+
+# Commit timestamp: 2023-12-11 00:00:00 - 281
